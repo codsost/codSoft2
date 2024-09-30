@@ -1,0 +1,219 @@
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(213, 211, 211, 0.041) , rgba(0, 0, 0, 0.7)), url(./images/index.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    background-color: aliceblue;
+    height: 75px;
+}
+
+.m32{
+    margin-left: 150px;
+}
+
+.nav1{
+    background-color: rgb(54, 53, 53);
+    height: 50px;
+}
+
+ li a:hover{
+    color: rgb(182, 112, 20);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.span1{
+    
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}  .z{
+    margin-left: 600px;
+}
+
+.o{
+    margin-left: 700px;
+    
+}
+.x{
+    margin-left: -25px;
+}
+.nav-item li a:hover{
+    color: red;
+}
+.nav-item{
+    padding-left:50px;
+}
+.image1{
+width: 180px;
+margin-top: 180px;
+}
+.p1{
+    font-size: 70px;
+}
+.c{
+    background-image: url(images/about_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.row1{
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.p2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.writer{
+    border: 0;
+    border-radius: 50%;
+}
+hr{
+    border: solid 1px orange;
+}
+.r{
+    margin-left: 120px;
+}
+.header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(147, 143, 143, 0.041) , rgba(0, 0, 0, 0.7)), url(./images/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.n{
+    margin-top: 260px;
+    margin-left: 60px;
+}
+.t{
+    margin-left: 40px;
+    
+}
+.w{
+  margin-left: 80px;
+}
+.p{
+    float: left; clear: both; 
+}
+.j{ float: right; }
+.im{
+    margin-left: 80px;
+}
+
+.btt{
+    height: 40px;
+    border-radius: 5%;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.mm{
+    margin-left: 40px;
+}
+.cc{
+    list-style-type: none;
+}
+.lk{
+    margin-left: 80px;
+}
+.hg{
+    font-size: 20px;
+}
+
+
+.nq:hover{
+    color: rgb(48, 103, 181);
+}
+.nw:hover{
+    color: rgb(216, 52, 107);
+}
+.ne:hover{
+    color: rgb(86, 115, 144);
+}
+.nr:hover{
+    color: rgb(48, 103, 181);
+}
+.login:hover{
+    color: rgb(48, 103, 181);
+}
+.register:hover{
+    color: rgb(48, 103, 181);
+}
+.btn1{
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn2{
+    border-radius: 7px;
+    
+}
+.imagge1{
+    border-radius: 85px;
+    height: 320px;
+}
+.h3z{
+    margin-left: 75px;
+}
+.hr1{
+    border: solid 2px rgba(223, 153, 23, 0.723);
+   width: 90px;
+   margin-left: 85px;
+  
+
+}
+.plorem{
+    margin-left: 80px;
+}
+.btn11{
+    margin-left: 75px;
+}
+.btnnn:hover{
+     box-shadow: rgb(186, 131, 67) -5px -5px 10px , rgb(188, 162, 93) 5px 5px 10px; 
+}
+
+
+
+
+
+/* لأجهزة الهواتف المحمولة */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 75%;
+       
+    }
+
+   
+    
+}
+
+/* لأجهزة التابلت */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        width: 90%;
+       
+
+  
+     
+    }
+}
+
+/* لأجهزة سطح المكتب */
+@media only screen and (min-width: 1025px) {
+    body {
+        width: 100%;
+        
+    }
+
+    
+}
+
+.shadow1{
+    box-shadow:  rgb(175, 148, 92) -2px -2px 5px ,rgb(231, 199, 132) 2px 2px 5px;
+}
+.shadow12{
+    box-shadow:  rgb(175, 148, 92) -2px -2px 5px ,rgb(231, 199, 132) 2px 2px 5px;
+    margin: 0 35px 0 35px;
+}
